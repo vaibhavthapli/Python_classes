@@ -16,11 +16,22 @@ print(x,y,z,name)
 
 """ Rules to name a Varaible:
 1. Variable names must start with a letter or an underscore(_).
-2. Variable name can only contain letters,numbers and underscores (_). Special characters and spaces are allowed.
+2. Variable name can only contain letters,numbers and underscores (_). Special characters and spaces are not allowed.
 3. Variable name are case-sesitive (myName and myname are treated as different variables).
 4. Avoid using Python keywords and built-in function name as variable names(eg: print,if,for,while etc)
 5. Variable names should be descriptive and indicate the purpose of the variable (eg: name, school, class, etc.)
 6. It's recommended to use lowercase letters for variables names, and for names with multiple words,use underscores to seprate them(snake_case)
 """
 
+name="Vaibhav"
+age=20
+gender="Male"
 
+# Method 1
+print("My name is",name)
+print("My age is",age)
+print("My gender is",gender)
+print("My name is",name,"My age is",age ,"My gender is",gender)
+
+# Method 2 (F-Strings)
+print(f"My name is {name} my age is {age} and gender is {gender}")
