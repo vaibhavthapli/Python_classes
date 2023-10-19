@@ -18,7 +18,7 @@ complex = 5i+6j
 Dictionary : {"a":123,"b":"VAibhav} Key: Value 
 List= [1,2,3,4,5]
 Tuples = (1,2,3,4)
-Strings = "VAibhav", 'Thapli',"123"
+Strings = "Vaibhav", 'Thapli',"123"
 Set:  a = {"apple", "banana", "cherry"}
 Boolean : True, False
 """

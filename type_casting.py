@@ -27,3 +27,18 @@ print(av,type(av))
 #dictionary
 vt = {"name": "vaibhav", "age": 26}
 print(vt,type(vt ))
+
+# Type_casting
+# Convert datatype to another datatype
+
+x=55
+y= 10
+z = x+y
+print(z)
+print(type(z))
+
+a= "55"
+b="10"
+c = (a+b)
+print(c)
+print(type(c))
